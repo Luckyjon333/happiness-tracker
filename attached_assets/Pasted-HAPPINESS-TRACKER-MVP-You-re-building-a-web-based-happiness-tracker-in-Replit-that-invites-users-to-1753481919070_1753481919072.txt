@@ -1,0 +1,23 @@
+HAPPINESS TRACKER MVP
+
+You're building a web-based happiness tracker in Replit that invites users to reflect on their emotional well-being over time. The design should feel calm, minimal, and human-centered—something between a journal and a mood mirror. When users arrive, they are welcomed with a simple title ("Daily Happiness Tracker") and a subtitle ("Track your emotional journey and discover patterns in your well-being"). The interface defaults to today's date and assumes the next available day unless the user selects otherwise. There is no login or account; all data is stored in localStorage and persists across browser sessions.
+
+The user is guided through a simple daily flow: first, they are asked, “How happy do you feel today?” and choose a number from 1 to 10 using either a slider or clearly labeled radio buttons. Each score is accompanied by a tooltip or hover description:
+1 – Extremely unhappy: feeling hopeless, deeply dissatisfied, or emotionally distressed.
+2 – Very unhappy: frequent sadness, anxiety, or numbness.
+3 – Unhappy: life feels heavy, flat, or frustrating most of the time.
+4 – Somewhat unhappy: mood is dull or restless, moments of discontent.
+5 – Neutral: not particularly happy or unhappy, emotionally flat.
+6 – Slightly happy: occasional positive emotions, but not consistent.
+7 – Moderately happy: good mood most days, mild contentment.
+8 – Happy: frequent joy, satisfaction, and emotional balance.
+9 – Very happy: strong sense of purpose, presence, and fulfillment.
+10 – Extremely happy: deep joy and peace, fully alive and present.
+
+After selecting their score, the user is prompted to write a short reflection (“What contributed to your score today?”) and an optional intention (“Is there anything you’d like to try or change tomorrow?”). Submitting the entry saves it to localStorage in a JSON structure that includes day, date, score, reflection, and intention.
+
+A responsive line chart is displayed below the form, updating in real time as entries are added. Use a lightweight charting library like Chart.js to plot the happiness score over time, with the x-axis representing each tracked day and the y-axis showing scores from 1 to 10. Points are interactive—clicking a point reveals the full reflection for that day and allows inline editing. Users can edit any past day via the chart or a dropdown selector, but the default experience assumes a one-day-at-a-time flow. The chart view should extend beyond Day 14 and continue indefinitely, with no upper time limit. Users can export their chart and reflections at any time—not just at the end—via a "Download My Report" button that generates a simple PDF summary or text export (optional for MVP but stub in the function).
+
+The visual style should be soft and unobtrusive: clean sans-serif font (like Inter or Helvetica), plenty of whitespace, soft color palette (light blues, greys, greens), large tap targets for mobile, and minimal ornamentation. Use subtle transitions (like fade-ins or gentle highlights) to acknowledge actions without adding noise. Avoid clutter or over-design—the emotional experience is the focus.
+
+This MVP should be easily maintainable, modular, and designed with the potential for later extension (e.g., backend storage, emotion tagging, longer-term trends) but should feel polished and useful right out of the box.

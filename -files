@@ -1,0 +1,65 @@
+[33mcommit 56a90af509a92630ea5ee40e9305ed9860d28d95[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:58:10 2025 +0000
+
+    Prepare application for deployment to GitHub and Vercel
+    
+    Adds deployment documentation, configures Vercel, and adjusts storage.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 211e3e7b-4862-462f-869b-e22fd7e0ca6f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6d747094-1df1-4f93-abff-03f2e4178591/211e3e7b-4862-462f-869b-e22fd7e0ca6f/jtmZGGK
+
+[33mcommit 9c16824167d658362ea0684d24e2f374f6bc6b03[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:46:53 2025 +0000
+
+    Improve data import/export and interface layout for daily entries
+    
+    Standardize date format for import/export and move DataImport component.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 211e3e7b-4862-462f-869b-e22fd7e0ca6f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6d747094-1df1-4f93-abff-03f2e4178591/211e3e7b-4862-462f-869b-e22fd7e0ca6f/m9bfcEB
+
+[33mcommit 39f0e129a2ee37ba5c8ff69868921646cae88872[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:39:03 2025 +0000
+
+    Enable importing happiness data from CSV files and simplify data entry
+    
+    Adds CSV import functionality and makes the reflection field optional in the form.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 211e3e7b-4862-462f-869b-e22fd7e0ca6f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6d747094-1df1-4f93-abff-03f2e4178591/211e3e7b-4862-462f-869b-e22fd7e0ca6f/GRwu0Ct
+
+[33mcommit a3fbaf1d8dbb1bd8986420161f433076cab12ea7[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:35:19 2025 +0000
+
+    Allow users to move forward and backward between dates more easily
+    
+    Implement date navigation using buttons in HappinessForm component and date-fns.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 211e3e7b-4862-462f-869b-e22fd7e0ca6f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6d747094-1df1-4f93-abff-03f2e4178591/211e3e7b-4862-462f-869b-e22fd7e0ca6f/y11kjnz
+
+[33mcommit aa17bbe28b3eae5df8f6c17363a082ca4b641e53[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:29:37 2025 +0000
+
+    Set up the basic structure for the happiness tracking application
+    
+    Initialize core files, add essential components and configure project dependencies.
+    
+    Replit-Commit-Author: Agent
+    Replit-Commit-Session-Id: 211e3e7b-4862-462f-869b-e22fd7e0ca6f
+    Replit-Commit-Screenshot-Url: https://storage.googleapis.com/screenshot-production-us-central1/6d747094-1df1-4f93-abff-03f2e4178591/211e3e7b-4862-462f-869b-e22fd7e0ca6f/OHYuLY3
+
+[33mcommit ec352c7e0731311a30951d093863b040216aa3bf[m
+Author: jonmarks2 <42890210-jonmarks2@users.noreply.replit.com>
+Date:   Fri Jul 25 22:26:40 2025 +0000
+
+    Initial commit
