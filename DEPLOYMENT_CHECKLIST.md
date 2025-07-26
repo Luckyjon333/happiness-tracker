@@ -61,9 +61,10 @@ git push -u origin main
 3. Click "New Project" 
 4. Import your `happiness-tracker` repository
 5. Configure settings:
-   - **Framework Preset**: Other
+   - **Framework Preset**: Vite
+   - **Root Directory**: `client`
    - **Build Command**: `npm run build`
-   - **Output Directory**: `dist/public`
+   - **Output Directory**: `dist`
    - **Install Command**: `npm install`
 6. Click "Deploy"
 7. Wait for deployment (usually 2-3 minutes)

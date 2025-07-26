@@ -47,9 +47,10 @@ git push -u origin main
    - Import your happiness-tracker repository
 
 2. **Configure Build Settings**:
-   - **Framework Preset**: Other
+   - **Framework Preset**: Vite
+   - **Root Directory**: `client`
    - **Build Command**: `npm run build`
-   - **Output Directory**: `dist/public`
+   - **Output Directory**: `dist`
    - **Install Command**: `npm install`
 
 3. **Deploy**:
